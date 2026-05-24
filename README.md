@@ -2,7 +2,7 @@
 
 ## Overview
 
-AnchorRegistry is a smart contract system for anchoring IoT device log data to a private blockchain. Rather than storing raw log data on-chain (which would be prohibitively expensive), aggregator nodes batch logs off-chain, build a Merkle tree from them, and anchor just the Merkle root to the chain. This gives a tamper-evident, auditable record of device activity without bloating the ledger.
+AnchorRegistry is a smart contract system for anchoring device log data to a private blockchain. Rather than storing raw log data on-chain (which would be prohibitively expensive), aggregator nodes batch logs off-chain, build a Merkle tree from them, and anchor just the Merkle root to the chain. This gives a tamper-evident, auditable record of device activity without bloating the ledger.
 
 The system is designed to run on a private, permissioned blockchain network — access to the node is restricted to internal infrastructure, with on-chain governance providing an additional layer of write control.
 
